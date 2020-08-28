@@ -1,0 +1,39 @@
+/* ============= SLick Slider ============= */
+
+.slick-list {
+ 	overflow: hidden;
+ 	padding: 1px;
+ }
+.slick-track {
+	display: flex;
+}
+.slaide {
+	position: relative;
+	transition: .3s linear;
+}
+.slaide:hover .arrow-slide {
+	opacity: 0.8;
+}
+.slaide .arrow-slide {
+	position: absolute;
+	top: 50%;
+	margin: -25px 0 0 0;
+	z-index: 10;
+	opacity: 0;
+	transition: .3s linear;
+}
+.slaide .arrow-slide svg {
+	color: #9a9c9a;
+	background-color: #fff;
+	border-radius: 8px;
+}
+.slaide .arrow-slide:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+.slaide .prev, .slaide .prev-2, .slaide .prev-news{
+	left: 0;
+}
+.slaide .next, .slaide .next-2, .slaide .next-news {
+	right: 0;
+}
