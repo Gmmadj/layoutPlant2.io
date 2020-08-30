@@ -267,6 +267,9 @@ a {
 /* End Navigation main*/
 
 /* Stock */
+.stock {
+	margin-bottom: 30px;
+}
 .stock .block {
 	margin-top: 0;
 }
