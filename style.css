@@ -601,6 +601,9 @@ ul.nav__mobil li ul li a:hover {
 		margin-left: -20px;
 		width: 300px;
 	}
+	.stock {
+		margin-bottom: 0;
+	}
 	.offers .block {
 		margin-top: 0;
 	}	
