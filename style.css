@@ -293,7 +293,7 @@ ul.nav__mobil, ul.nav__mobil ul {
  width: 100%;
  margin: 0 auto;
  padding: 0;
- margin: 30px 5px;
+ margin: 0px 5px;
 }
 
 ul.nav__mobil a {
@@ -351,6 +351,9 @@ ul.nav__mobil li ul li a:hover {
 /* End Navigation accordion */
 
 /* Add info */
+.add__info {
+	margin-top: 30px;
+}
 .add__info .block {
 	width: 100%;
 	margin: 0;
