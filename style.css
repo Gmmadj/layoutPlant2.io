@@ -1,4 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap');
+@font-face {
+font-family: "Roboto"; 
+src: url("fonts/Roboto/Roboto-Regular.ttf"); 
+font-weight: 400;
+} 
+@font-face {
+font-family: "Roboto"; 
+src: url("fonts/Roboto/Roboto-Medium.ttf"); 
+font-weight: 500;
+} 
+@font-face {
+font-family: "Roboto"; 
+src: url("fonts/Roboto/Roboto-Bold.ttf"); 
+font-weight: 700;
+} 
+
+@font-face {
+font-family: "Open Sans"; 
+src: url("fonts/Open-sans/OpenSans-Regular.ttf"); 
+font-weight: 400;
+} 
+@font-face {
+font-family: "Open Sans"; 
+src: url("fonts/Open-sans/OpenSans-Semi-bold.ttf"); 
+font-weight: 600;
+} 
+@font-face {
+font-family: "Open Sans"; 
+src: url("fonts/Open-sans/OpenSans-Bold.ttf"); 
+font-weight: 700;
+} 
+			
 
 h1, h2, nav a, nav p, h3, h4, h5, h6, button, ul, a{
 	font-family: 'Roboto', sans-serif;
@@ -505,10 +536,8 @@ ul.nav__mobil li ul li a:hover {
 .card__info > img {
 	object-fit: cover;
 	max-height: 150px;
-	width: calc(100% + 30px);
-	margin: -15px -15px 0px -15px;
+	width: 100%;
 	align-self: center;
-	border-radius: 5px 5px 0 0;
 }
 
 .card__info .card__content{
@@ -538,6 +567,9 @@ ul.nav__mobil li ul li a:hover {
 }
 .card__goods > img {
 	max-height: 150px;	
+	width: calc(100% + 30px);
+	margin: -15px -15px 0px -15px;
+	border-radius: 5px 5px 0 0;
 }
 .card__goods .more__info {
 	display: flex;
@@ -708,11 +740,11 @@ ul.nav__mobil li ul li a:hover {
 	}
 	.card__info {
 		width: 300px;
-		min-height: 350px;
+		min-height: 320px;
 	}
 	.card__info > img {
 		filter: brightness(85%);
-		max-height: 200px;
+		max-height: 160px;
 	}
 
 	.card__info .card__content {
